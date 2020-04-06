@@ -1,0 +1,204 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+}
+.main-wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+/*header start*/
+header {
+    padding: 25px 0;
+}
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo {
+    width: 10%;
+    float: left;
+    margin-top: 15px
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    width: 60%;
+    float: right;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li {
+    list-style-type: none;
+    float: left;
+    margin-left: 75px;
+}
+.menu ul li a{
+    color: #626262;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+} 
+.menu ul li a:last-child{
+    padding-right: 0;
+}
+.menu ul li:hover a{
+    border-bottom: 2px solid #626262;
+}
+/*header end*/
+/*banner start*/
+.banner{
+    }
+.b_img{}
+.b_img img{
+    width: 100%
+}
+/*banner end*/  
+/*photodiary & services*/
+.photodiary{
+    margin-top: 100px;
+}
+.wrapper2{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+    overflow: hidden;
+}
+.ubuntu{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.heading{
+    font-size: 30px;
+    font-weight: 400;
+}
+.paragraph{
+    line-height: 25px;
+    word-spacing: 3px;
+    margin: 40px 0;
+}
+/*services*/
+.services .service{
+     width: 46%;
+     float: left;
+     margin-right: 75px;
+     margin-bottom: 100px;
+
+}
+.services .service:nth-child(even){
+    margin-right: 0;
+}
+.services .service img{
+     width: 100%;
+     margin-bottom: 30px;
+}
+.clear{
+    clear:both;
+}
+/*services*/
+/*sign-up*/
+.newsletter{
+    padding: 50px 0;
+    background-color: #F0F0F0;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.sign-up{
+    
+}
+.sign-up h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.for_form{
+    width: 350px;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.for_form input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 18px;
+    width: 290px;
+    padding: 10px 60px 10px 10px;
+}
+.for_form button{
+    background: transparent;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+.for_form img{
+    
+}
+/*sign-up*/
+/*loadmore*/
+.load{
+     text-align: center;
+     margin-top: 25px;
+     margin-bottom: 145px;
+}
+.load .more{
+     border: none;
+     background: none;
+     font-family: 'Playfair Display', serif;
+     font-weight: 300;
+     font-size: 18px;
+     color: #626262;
+     border: 1px solid #333333;
+     padding: 15px 30px;
+     transition: .5s ease;
+}
+.load .more:hover{
+     border: 1px solid #CDD1D4;
+     background: #626262;
+     color: #FFFFFF;
+}
+/*loadmore*/
+/*footer*/
+footer{
+    background-color: #F0F0F0;
+    overflow: hidden;
+}
+.condition{
+    float: left;
+    padding: 45px 0;
+}
+.condition ul li {
+    list-style-type: none;
+    float: left;
+    margin-right: 20px;
+}
+.condition ul li a{
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    color: #626262;
+}
+.icons{
+    float: right;
+    padding: 45px 0;
+}
+.icons ul li{
+    list-style-type: none;
+    float: left;
+    margin-left: 20px;
+}
+.icons li a img{
+     width: 16px;
+     height: 15px;
+}
